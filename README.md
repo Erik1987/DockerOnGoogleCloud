@@ -19,6 +19,8 @@ where HOSTNAME is gcr.io, us.gcr.io, eu.gcr.io, or asia.gcr.io.
 
 // push
 
+$ docker tag SOURCE_IMAGE HOSTNAME/PROJECT-ID/IMAGE:TAG
+
 $ docker push eu.gcr.io/PROJECT_ID/myapp-client:latest
 
 // Google sdk
